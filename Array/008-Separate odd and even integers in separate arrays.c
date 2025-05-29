@@ -1,3 +1,5 @@
+// Copy the element of one array to another
+
 #include<stdio.h>
 int main(){
     int i, arr[100], odd[100], even[100], size, e=0, o=0;
@@ -18,7 +20,7 @@ int main(){
     for(i=0; i<e; i++){
         printf("%d\t", even[i]);
     }
-    printf("Array of odd numbers : ");
+    printf("\nArray of odd numbers : ");
     for(i=0; i<o; i++){
         printf("%d\t", odd[i]);
     }
